@@ -2,7 +2,7 @@ def kalkulator():
 
     liczba1 = 5
     liczba2 = 6
-    
+
     suma = liczba1 + liczba2
     print(suma)
     roznica=liczba1-liczba2
@@ -15,7 +15,7 @@ def kalkulator():
         print(dzielenie)
     else:
         print("Nie mozna dzielic przez zero")
-    
+
 
 
 kalkulator()

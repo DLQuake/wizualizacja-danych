@@ -3,7 +3,7 @@ def wyrazenia():
     a=math.e
     b=10
     print("e^10 = ",a**b)
-   
+
 
     f=5
     i=8 # pi*2/45 = 8

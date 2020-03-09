@@ -4,7 +4,7 @@ def imienazwisko():
 
     b="LEWCZYŃSKI"
     nazwisko=b.capitalize()
-    
+
     print(imie, nazwisko)
 
 
