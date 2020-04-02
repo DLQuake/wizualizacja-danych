@@ -1,4 +1,5 @@
-
+#Napisz skrypt, w którym użytkownik ma podać liczbę i który będzie wyłapywał błąd gdy użytkownik
+#poda literę zamiast cyfry.
 liczba=int(input("Podaj liczbe: "))
 
 try:

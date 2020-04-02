@@ -1,3 +1,4 @@
+#Napisz skrypt, który pobiera od użytkownika trzy liczby a, b i c. Sprawdza następujące warunki:
 def warunek():
     liczba1=input("Podaj pierwsza liczbe: ")
     liczba1=int(liczba1)

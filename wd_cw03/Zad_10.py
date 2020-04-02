@@ -1,3 +1,6 @@
+#Napisz funkcję, która wykorzystuje symbol **. Funkcja ma przyjmować listę zakupów w postaci: klucz
+#to nazwa produktu a wartość to ilość. Funkcja ma zliczyć ile jest wszystkich produktów w ogóle i
+#zwracać tę wartość.
 def ilosc_produnktow(**lista_zakupow):
     suma = 0.0
     for i in lista_zakupow:

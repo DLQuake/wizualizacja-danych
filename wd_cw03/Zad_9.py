@@ -1,3 +1,4 @@
+#Wykorzystując poprzedni przykład zdefiniuj funkcję, która będzie liczyć iloczyn elementów ciągu
 def iloczyn_elementow_ciagu(* liczby):
     if len(liczby)==0:
         return 0.0

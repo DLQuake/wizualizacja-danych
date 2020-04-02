@@ -1,3 +1,4 @@
+#Stwórz skrypt kalkulator, w którym wykorzystać wszystkie podstawowe działania arytmetyczne
 def kalkulator():
 
     print("MENU")

@@ -1,3 +1,4 @@
+#Napisz skrypt, w którym stworzysz operatory przyrostkowe dla operacji: +, -, *, /, **, %
 def opera():
     a=3
     a+=1

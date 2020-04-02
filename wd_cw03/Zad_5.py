@@ -1,3 +1,7 @@
+#Napisz funkcję, która będzie sprawdzać czy dwie proste są równoległe czy prostopadłe:
+#Proste dane równaniami y=a1x+b1, y=a2x+b2, są
+#równolegle gdy a1=a2
+#prostopadłe gdy a1*a2=-1
 def prostopadlerownolegle(a1,b1,a2,b2):
     if a1==a2:
         print("Proste y =",a1,"* x +",b1," oraz y =",a2,"* x +",b2," sa rownolegle")

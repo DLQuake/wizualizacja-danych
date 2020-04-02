@@ -1,3 +1,5 @@
+#Napisz skrypt, który pobiera od użytkownika dwie wartości i mnoży je przez siebie. Wynik wyświetla
+#na ekranie (użyj instrukcji readline() i write()).
 def mnozeniewarosci():
     import sys
 

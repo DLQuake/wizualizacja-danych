@@ -1,3 +1,8 @@
+#Napisz skrypt, który policzy i wyświetli następujące wyrażenia:
+# e^10
+# (ln(5 + 𝑠𝑖𝑛28))^1/6
+#|3,55|
+# ⌈4,80|
 def wyrazenia():
     import math
     a=math.e
