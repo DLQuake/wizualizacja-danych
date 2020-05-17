@@ -16,8 +16,8 @@ def wyrazenia():
     print("Pierwiastek 6 stopnia z Ln(",f,"+(sin(",i,"))^2) wynosi ",logarytmnaturalny**(1/6))
 
     c=3.55
-    print("|",c,"| = ",math.fabs(c))
+    print("⌊",c,"⌋ = ",math.floor(c))
 
     d=4.80
-    print("|",d,"| = ",math.fabs(d))
+    print("⌈",d,"⌉ = ",math.ceil(d))
 wyrazenia()
