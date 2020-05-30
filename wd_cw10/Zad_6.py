@@ -2,34 +2,25 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_excel('datasets/imiona.xlsx')
-print(df)
+etykiety = ['K', 'M']
+wartosci = [100, 50]
 
-grupa = df.groupby(['Plec']).agg({'Liczba':['sum']})
-print(grupa)
-plt.subplot(1, 3, 1)
-wykres = grupa.plot.bar()
-wykres.set_ylabel('Liczba')
-wykres.set_xlabel('Plec')
-wykres.legend()
-plt.title('liczba urodzonych chłopców i dziewczynek')
+plt.bar(etykiety, wartosci)
+plt.subplot(3, 2, 1)
+plt.xticks(rotation=45)
+plt.ylabel('Ilość')
+plt.xlabel('Płeć')
 plt.show()
 
-plt.subplot(132)
-wykres = grupa.plot.consum()
-wykres.set_ylabel('Liczba')
-wykres.set_xlabel('Plec')
-wykres.legend()
-plt.title('liczba urodzonych chłopców i dziewczynek')
+plt.plot(etykiety, wartosci)
+plt.subplot(3, 2, 4)
+plt.ylabel('Liczba')
+plt.xlabel('Plec')
+plt.legend()
 plt.show()
 
-
-grupa2 = df.groupby(['Plec']).agg({'Rok':['sum']})
-print(grupa2)
-plt.subplot(1,3,3)
-wykres = grupa2.plot.bar()
-wykres.set_ylabel('Liczba')
-wykres.set_xlabel('Plec')
-wykres.legend()
-plt.title('liczba urodzonych chłopców i dziewczynek')
+plt.bar(etykiety, wartosci)
+plt.subplot(325)
+plt.ylabel('Liczba')
+plt.xlabel('Plec')
 plt.show()
