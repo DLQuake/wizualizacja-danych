@@ -11,7 +11,7 @@ plt.plot(x,y2,label='cos(x)')
 plt.xlabel('x')
 plt.ylabel('sin(x) cos(x)')
 
-plt.title("Wykres sin(x) cos(x)")
+plt.title("Wykres sin(x), cos(x)")
 
 plt.legend()
 plt.show()
